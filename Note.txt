@@ -1,0 +1,25 @@
+Assignment - Shopping Cart
+
+Features Implemented =>
+
+Primary features->
+1) User Sign Up and Sign In.
+2) Users are able to view all the items under products. The page can be viewed with or without login.
+3) Users should be able to select a particular product and add it to the shopping cart. Login is not required to add items to the shopping cart. 
+4) Users should be able to check out the cart once they are done with the selection of products. The user must log in before checkout. 
+5) Checking out the cart would display all the products, categories, and prices in the cart along with the total amount.
+6) On confirmation of the cart details by the user, a receipt should be displayed with the products in the cart and the invoice number which with a random number.
+
+Secondary features->
+1) The user should be able to edit or delete items from the cart.
+2) If the Total Price of the cart exceeds $50, a flat 10% should be applied to the total cart price.
+
+Features Not Implemented =>
+
+Secondary features->
+1) Users should be able to filter items by categories, and price range e.g (less than $5, $5 - $10, $10 - $15, $15 - $20, and over $20). 
+2) Users should be able to sort items by price range e.g High to Low, Low to High.
+
+
+Backend Deployed Link = https://json-deploy-mock3-0048.herokuapp.com
+Front-End Deployed Link = https://ephemeral-gecko-86b4af.netlify.app

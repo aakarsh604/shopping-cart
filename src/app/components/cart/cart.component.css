@@ -1,0 +1,108 @@
+.table {
+  width: 80%;
+  margin: auto;
+  margin-top: 40px;
+  border-collapse: collapse;
+}
+
+.table td,
+.table th {
+  border: 1px solid #efe;
+  padding: 8px;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.table tr:hover {
+  background-color: #ddd;
+}
+
+.table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04aa6d;
+  color: white;
+}
+
+.table img {
+    width: 100px;
+    height: 100px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table button {
+  background : rgb(234, 53, 53);
+  border : none;
+  outline : none; 
+  padding : 10px 25px;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  color : white;
+}
+
+.table button:hover {
+  background-color: red;
+}
+
+.emptyCart {
+  width : 250px;
+  height: 250px;
+  margin: auto;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content:  center;
+  align-items: center;
+}
+
+.emptyCart button{
+  background : rgb(19, 123, 208);
+  border : none;
+  outline : none; 
+  padding : 10px 25px;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  color : white;
+  margin-top: 20px;
+}
+
+.emptyCart button:hover{
+  background-color: rgb(11, 88, 151) ;
+}
+
+.checkout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap : 15px;
+  margin: auto;
+  margin-top: 35px;
+  margin-bottom: 40px;
+}
+
+.checkout button{
+  background : rgb(19, 123, 208);
+  border : none;
+  outline : none; 
+  padding : 10px 25px;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  color : white;
+  font-weight: bold;
+}
+
+.checkout button:hover{
+  background-color: rgb(11, 88, 151) ;
+}

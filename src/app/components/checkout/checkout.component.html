@@ -1,0 +1,29 @@
+<div>
+  <h2>Confirm Purchase</h2>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>S.No</th>
+        <th>Name</th>
+        <th>Category</th>
+        <th>Quantity</th>
+        <th>Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of products; index as i">
+        <td>{{ i + 1 }}.</td>
+        <td>{{ item.name }}</td>
+        <td>{{ item.category }}</td>
+        <td>{{ item.quantity }}</td>
+        <td>${{ item.price * item.quantity }}.00</td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="checkout">
+    <div>
+      GrandTotal: <strong>${{ grandTotal.toFixed(2) }}/-</strong>
+    </div>
+    <div><button routerLink="/receipt">Proceed to Pay</button></div>
+  </div>
+</div>

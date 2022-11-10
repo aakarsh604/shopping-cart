@@ -1,0 +1,39 @@
+<div class="container">
+    <h2>Order Details</h2>
+    <hr>
+    <h4>Invoice No :</h4>
+    <div>{{invoiceNo}}</div>
+    <h4>Transaction ID :</h4>
+    <div>37157761554426389077836</div>
+    <h4>Transaction Date :</h4>
+    <div>{{date}}</div>
+    <h4>Transaction Time :</h4>
+    <div>{{time}}</div>
+    <h4>Order Status :</h4>
+    <div>Completed</div>
+
+    <table class="table">
+      <thead>
+        <tr>
+          <th>S.No</th>
+          <th>Name</th>
+          <th>Quantity</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let item of products; index as i">
+          <td>{{ i + 1 }}.</td>
+          <td>{{ item.name }}</td>
+          <td>{{ item.quantity }}</td>
+          <td>${{ item.price * item.quantity }}.00</td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="checkout">
+      <div>
+        GrandTotal: <strong>${{ grandTotal.toFixed(2) }}/-</strong>
+      </div>
+      <div><button (click)="continueShop()">Continue Shopping</button></div>
+    </div>
+  </div>

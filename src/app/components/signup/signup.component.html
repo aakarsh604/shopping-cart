@@ -1,0 +1,22 @@
+<form>
+    <div class="container">
+      <h1>Register</h1>
+      <hr>
+
+      <label for="name"><b>Name</b></label>
+      <input type="text" placeholder="Enter Name" name="name" id="name" [(ngModel)]="user.name" required>
+  
+      <label for="email"><b>Email</b></label>
+      <input type="email" placeholder="Enter Email" name="email" id="email" [(ngModel)]="user.email" required>
+  
+      <label for="password"><b>Enter Password</b></label>
+      <input type="password" placeholder="Enter Password" name="password" id="password" [(ngModel)]="user.password" required>
+      <hr>
+  
+      <button type="submit" class="registerbtn" (click)="onSubmit()">Register</button>
+    </div>
+    
+    <div class="container signin">
+      <p>Already have an account? <a routerLink="/login">Log in</a>.</p>
+    </div>
+  </form>

@@ -1,0 +1,89 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Winter Jacket",
+      "category": "Men Accessories",
+      "price": 20,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2mJSIAuTPz0rxUYWByvZtBDw373IeKCzPqw&usqp=CAU"
+    },
+    {
+      "id": 2,
+      "name": "Wrist Watch",
+      "category": "Men Accessories",
+      "price": 30,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5mtR5lwXxAsaaS9DXQy--oEsGR4KYMiBqIQ&usqp=CAU"
+    },
+    {
+      "id": 3,
+      "name": "Hat",
+      "category": "Men Accessories",
+      "price": 20,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZY1L52R52wc2URccpEyRebWMlnWC1tWKQGQ&usqp=CAU"
+    },
+    {
+      "id": 4,
+      "name": "Wrist Band",
+      "category": "Women Accessories",
+      "price": 5,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCRQuXwLgfj9fW_Df7qIAaimzD_TFoh0geRA&usqp=CAU"
+    },
+    {
+      "id": 5,
+      "name": "Hand bag",
+      "category": "Women Accessories",
+      "price": 20,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7S7X4gb7dG5iYefSKPERnBouO8oImgEAPzQ&usqp=CAU"
+    },
+    {
+      "id": 6,
+      "name": "Bracelet",
+      "category": "Women Accessories",
+      "price": 20,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPxEH5B2aqizsfGh9ETC-KY__f5g_iUiRl9w&usqp=CAU"
+    },
+    {
+      "id": 7,
+      "name": "Shoes",
+      "category": "Children Accessories",
+      "price": 20,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4zqcGCPCLCoQYxqdalmmLy7auCbWUEatKwg&usqp=CAU"
+    },
+    {
+      "id": 8,
+      "name": "Kids Scraf",
+      "category": "Children Accessories",
+      "price": 10,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy_S8fu915AFgxKp3n4bTfs2s6aMWZBm-mIQ&usqp=CAU"
+    },
+    {
+      "id": 9,
+      "name": "Skirts",
+      "category": "Children Accessories",
+      "price": 10,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaDFHLDp0fMVrbzRv3CGRSJNVtiZpuNUCezw&usqp=CAU"
+    },
+    {
+      "id": 10,
+      "name": "Soccer Ball",
+      "category": "Sports Accessories",
+      "price": 20,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHYB-DYArIgG5AEqY0uuR2Tgwk6_GbR2f54Q&usqp=CAU"
+    },
+    {
+      "id": 11,
+      "name": "Base Ball",
+      "category": "Sports Accessories",
+      "price": 15,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTurnzHNdKbgdpafYMZsU0m8U2-8JmUGE5GEg&usqp=CAU"
+    },
+    {
+      "id": 12,
+      "name": "Volly Ball",
+      "category": "Sports Accessories",
+      "price": 18,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfQlrTrJ3sJck24DAB89KIFYTtsl-efHsVDA&usqp=CAU"
+    }
+  ],
+  "cart": []
+}

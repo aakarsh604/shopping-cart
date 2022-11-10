@@ -1,0 +1,33 @@
+<div>
+
+  <div class="filters">
+    <select id="">
+      <option hidden>Filter by Category</option>
+      <option value="">Men Accessories</option>
+      <option value="">Women Accessories</option>
+      <option value="">Children Accessories</option>
+      <option value="">Sports Accessories</option>
+    </select>
+    <select id="">
+      <option hidden>Sort by Price</option>
+      <option value="htl">High to Low</option>
+      <option value="lth">Low to High</option>
+    </select>
+  </div>
+
+<div class="displayContainer">
+
+  <div *ngFor="let item of productList">
+    <div class="card">
+      <img src="{{ item.image }}" alt="image" />
+      <h4>{{ item.name }}</h4>
+      <div>{{ item.category }}</div>
+      <div>
+        Price:<s>${{ item.price + 3 }}.00</s> ${{ item.price }}.00
+      </div>
+      <button (click)="addtocart(item)">Add to Cart</button>
+    </div>
+  </div>
+</div>
+
+</div>
